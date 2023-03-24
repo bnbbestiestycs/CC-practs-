@@ -1,1 +1,35 @@
-
+Open Oracle VM VirtualBox.
+Click on New. & give name it as "tycs".
+Do next, next, Create, Next, Next.
+In File Location & size, click on Browse option(folder icon) & select ubuntu iso file from desktop. Click Next.(If the file is not visible then simple click on create option.)
+Click on Start. 
+Select start-up disk :- here click on the file icon option.
+Click on Add & browse the iso file from desktop. (If firstly not visible then select here).
+Open, Choose, start, capture vm...
+After this ubuntu will start downloading.
+After downloading, click on install ubuntu.
+By keyboard layout , select English (US) &English (UK). Click on Continue.
+In Updates & other software, Do nothing, click next.
+In installation type, do nothing & click on install now.
+Where are you? -> Kolkata.
+Who are you? -> Fill out the details & click on continue.
+Installing started.......
+After this, Ubuntu will ask for restart. Do it & in that open terminal.
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐭𝐨 𝐩𝐞𝐫𝐟𝐨𝐫𝐦 𝐨𝐧 𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐥:-
+$ sudo apt-get update
+Enter password :- [123456] (use repeatedly this cmd after below every cmd).
+1) $ sudo grep -c "svm\|vmx"/proc/cpuinfo 
+2) $ sudo apt-get install qemu-kvm -> (Select yes -> type 'y').
+3) use update & cou info cmd
+4) $ sudo apt-get install libvirt-bin
+5) $ sudo apt-get install bridge-utils 
+6) $ sudo apt-get install virt-manager 
+After completing, open search bar & type vmm/virt & choose "Virtual Machine Manager".  If a new window comes for software updater.. Then click on ask me later.
+After complete installation via terminal, close it & go in vmm.
+Go in File & click on "Add connection". Click on Connect. 
+Click on +(plus icon) to create virtual machine. Then click on forward. (Step1)
+In step 2, deselect the checkbox of (automatically detect from the installation). On top -> In drop down box, select "no media detected". 
+In same step, below drop down box, there is file choose option. Select " microsoft windows 7" .Then Click on forward.
+Again twicely click on forward.
+Click on Finish & then Select Yes.
+(..... No bootable device) this will be an output.
