@@ -1,1 +1,11 @@
-
+Open File Explorer 
+Open USB Server
+Double click on USB webserver 
+Then,"usb webserver" icon will be displayed in "hidden icons" tab (in lower task bar, besides network option)
+Single click to open it (usb webserver will be open)
+Go in settings
+Change the apache's port to "8085" 
+Click on Save button
+Go in lower taskbar (show hidden options) --> single click on USB webserver icon to open it.
+Go in general & click on "Localhost".
+"Hello TYCS" will be shown as output.
