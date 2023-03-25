@@ -20,7 +20,7 @@ $ sudo apt-get update
 Enter password :- [123456] (use repeatedly this cmd after below every cmd).
 1) $ sudo grep -c "svm\|vmx"/proc/cpuinfo 
 2) $ sudo apt-get install qemu-kvm -> (Select yes -> type 'y').
-3) use update & cou info cmd
+3) use update & cpu info cmd
 4) $ sudo apt-get install libvirt-bin
 5) $ sudo apt-get install bridge-utils 
 6) $ sudo apt-get install virt-manager 
